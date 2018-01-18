@@ -1,9 +1,13 @@
 # Final-OrangeProjesi-TreeModel
 Grup Üyeleri :  Merve TAŞDELEN- Ayşe ŞAHİN - Kader GÜROL - Yasemin ÜZÜM - Hamiyet KAYA
 Orange Canvas Programında Tree Modelini kullanarak 5 farklı data set uyguladık. Hepimizin verisi birbirinden farklı konuları içermektedir. Orange projemiz üzerinde çalışabilmek için öncelikle github üzerinden bir proje alanı oluşturduk.  Bu proje alanında yalnızca bir tane yönetici yerine grup üyelerinin tamamını yönetici yaptık ki verilere herkes ulaşabilsin, düzenleyebilsin ve silebilsin. İlk olarak Git Bashı kullanarak git temel kodlarıyla verilerimizi github da bulanan depo alanımıza gönderdik. Daha sonradan eklemek istediğimiz çalışmayı sürükle bırak mantığını kullanarak github üzerinde paylaştık. İlk önce çalışmalarımızı dosya şeklinde atarken, kafa karışıklığı yaratılmasın diye süreç sonuna doğru çalışmalarımızı klasör şeklinde yükledik.Klasör içerisinde grup üyelerinin , orange çalışması, kullandığı veri seti, orange çalışmasının html görüntüsü bulunmaktadır.Böylece süreci hızlandırmış olduk. Böylece kim ne yapmış, hangi veri ya da çalışma kime ait bir düzen içinde belirlenmiş oldu. 
+
 Orange canvas üzerinde verilerimizi görselleştirirken veri bulmamız biraz zor oldu. Her veri tree modele uyumlu değildi ve aralarında en uygun olanlarını grupça kendi aramızda belirledik. Veri görselleştirme aşamalarını(file-data table-tree-tree viewer) oluştururken zorluk yaşamadık fakat veri görselleştirildikten sonra verilerimizi yorumlama ve anlama aşaması uzun sürdü. 
+
 Oluşturduğumuz verilerin tamamını web sitemizde yayımladık. Her birimizin sayfasında en başta kendi çalışmamız ve diğer grup üyelerinin çalışmaları yer aldı. Yaptığımız görselleştirme sürecinin verisini sitemize de gömdük. Herkesin çalışmasıyla ilgili veri dosyası, orange dosyası, github bağlantısı ve html bağlantıları verildi. Dersin ilgili hocalarının isminin yazılmasına özen gösterildi. Yaptığımız çalışmalar github ve Web sitemiz haricinde başka bir yerde paylaşılmadı.
+
 Yaptığımız çalışma sürecini anlatan (github ve orange) yaklaşık yedi dakikalık bir video oluşturduk. Videonun oluşturulma sürecindeki ilgili dosyalar, github ve orange ile ilgili çalışmalarımızın tamamını CD’ ye yükledik. 
+
 Merve Taşdelen Car.tab verisini kullanmıştır. Açıklaması şu şekildedir:
 Araba alırken dikkat edilen unsurlar
 Car.tab (otomobil) veri dosyasının tree modeliyle görselleştirilmiş halidir. Burada 1728 tane veri, araba unsurları göz önünde bulundurularak hazırlanmıştır. (Fransa)
@@ -24,6 +28,7 @@ Burada en fazla önem verilen özellik kişi sayısı ve emniyettir.
 Emniyeti düşük olanlar ve kişi sayısının da iki kişi olması kabul edilmemektedir. Aynı zamanda bakımı yüksek olanlarda tercih edilmeyenler arasındadır.
 En fazla dikkatimi çeken çekiş ve kişi sayısı oldu. Kişi sayısında iki kişiliklere çok önem verilememekteyken, çekiş gücünün büyük ya da küçük olması çok etkilememektedir.
 Görselleştirmede en yüksek değer alanlar gösterilmiştir.  
+
 Hamiyet Kaya titanic.tab verisini kullanmıştır. Açıklaması şu şekildedir:
 Titanic.tab veri dosyasının tree modeliyle gösterilmiş halidir.
 Titanic’teki bireylerin hayatta kalma durumları incelenmiştir.
@@ -40,6 +45,7 @@ Tree Modeli incelediğimizde kadın, dallara ayrıldığında  hayatta kalanlar�
 Yaş değişkenine göre,çocukların %100’ü kurtarılmıştır. Yetişkinlerin  % 86’sı kurtarılmıştır. Yetişkin kesim ,çocuk yaş grubuna oranla daha az kurtarılmıştır.
 Dikkatimi çeken unsurlar : Erkeklerde  çocukların %100’ü kurtarılmıştır. Ayrıca erkeklerde  e ikinci sınıf %91, üçüncü sınıf %83 oranla hayatını kaybetmiştir.
 İstatistiklere göre  %67 oranla, toplamda  1490 kişi hayatını kaybetmiştir.
+
 Kader Gürol dermatology.tab verisini kullanmıştır. Açıklaması şu şekildedir:
 Cilt hastalıklarının belirtilere göre incelenmesi
 Dermatology.tab veri dosyası tree modeliyle görselleştirilmiştir.
@@ -56,6 +62,7 @@ Modelde etki alanı için oluşturulan veri kümesindeki aile geçmişi özelli�
 Yaş özelliği yalnızca hastanın yaşını temsil eder. Diğer her özellikte (klinik ve histopatolojik) 0 ile 3 arasında bir derece verilmiştir. Burada 0, özellik bulunmadığını, 3 olası en büyük miktarı, 1 ve 2 ise ara değerleri ifade eder.
 366 kişiden 112si Kronik deri iltihabı(pisoriasis) hastalığına sahiptir bu hastalığın belirtisi de derideki çıkıntılardır.
 Seboreik egzama hastalığı yaşa göre incelendiğinde 25 yaşından küçük olanların hepsinin bu hastalığa sahip olduğu, yaşı 25ten büyük olan 4 kişiden 2sinin de Pisoriasis hastalığına sahip olduğu gözlemlenmiştir.
+
 Ayşe Şahin zoo.tab verilerini kullanmıştır. Açıklaması şu şekildedir:
 Bir hayvanat bahçesinde bulunan 101 tane hayvan göz önüne alınarak hazırlanmıştır. Birtakım özelliklerine göre ağaç modeliyle hayvanlar sınıflandırılmıştır.
 7 tane değer (memeli, kuş, balık, omurgasız, böcek, sürüngen, hem karada hem suda yaşayan hayvanlar) belirlenmiştir. Bu değerler bazı özelliklere göre (süt veren, tüy durumu, omurga durumu, kaç bacaklı olduğu, yüzgeç durumu, suda yaşama durumu, zehirli olup olmadığı) gruplandırılmıştır. 
@@ -69,6 +76,7 @@ Hayvanlardan 41 tanesi memeli grubuna dahil edilmiştir. Bu neredeyse tüm hayva
 Geriye kalan 60 hayvandan süt verme özelliğine göre 20’si kuşlar grubundadır.
 Geriye kalan 40 hayvandan tüysüz özelliğine sahip olan 13 hayvan balıklar grubundadır.
 Modelde aşağı doğru inildikçe kontrol edilen özellik artar. en sonda hem suda hem karada yaşayabilen hayvanlarda yüzgeci olmayan, omurgalı, tüyü olmayan, süt vermeyen, suda yaşayan ve zehirli olduğu tespit edilen bir hayvan belirlenmiştir. O da deniz yılanıdır.
+
 Yasemin Üzüm lenses.tab verisini kullanmıştır. Açıklaması şu şekildedir:
 Lenses.tab veri setinin tree modeli ile görselleştirilmiş halidir. 24 adet kişinin bazı özelliklere göre hangi tür lensi taktıkları ya da takmadıkları ifade edilmiştir.
 Sert lens: yüksek astigmatizma ve keratokonus gibi olgularda özellikle tercih edilirler.
